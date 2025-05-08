@@ -2,4 +2,32 @@
 
 body{
     background: white;
+    display: flex;
+    flex-direction: column;
+}
+#button{
+    align-self: center;
+    text-align: center;
+    align-content: center;
+    border-radius: 100%;
+    border: 3px, solid, black;
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+#button:hover{
+    background: darkred;
+}
+
+#button:active{
+    background: green;
+}
+
+#button > p{
+    font-size: large;
+}
+
+#domain {
+    margin-bottom: 100px;
 }

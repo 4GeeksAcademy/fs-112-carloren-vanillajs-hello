@@ -1,7 +1,5 @@
 import "bootstrap";
 import "./style.css";
-                                                                  // --> Comentar todos los import para probar directamente en la consola y que no de error de extensión de archivo
-
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
@@ -30,9 +28,6 @@ function domainGen() {
 
   console.log(domains)
 
-  document.getElementById("domain").innerText = domains;          // --> Comentar esta línea para probar directamente en la consola y que no de error de extensión de archivo
-
-  console.log("Hello Rigo from the console!");
+  document.getElementById("domain").innerText = domains;
 };
-document.getElementById("button").onclick = domainGen;            // --> Comentar esta línea para probar directamente en la consola y que no de error de extensión de archivo
-// domainGen()                                                    // --> Descomentar esta funcion para probar directamente en la consola y que no de error de extensión de archivo
+document.getElementById("button").onclick = domainGen;
